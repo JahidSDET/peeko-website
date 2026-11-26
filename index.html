@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Peeko: the friendly screen recorder for tutorials</title>
+    <meta name="description" content="Record beautiful tutorials and software demos on Windows. Screen, mic and system audio in sync, webcam overlay, click highlights, and clean MP4s. Works fully offline." />
+    <link rel="canonical" href="https://peeko.flowgenius.tech/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Peeko: the friendly screen recorder for tutorials" />
+    <meta property="og:description" content="Record beautiful tutorials and software demos on Windows. Screen, mic and system audio in sync, webcam overlay, click highlights, and clean MP4s. Works fully offline." />
+    <meta property="og:url" content="https://peeko.flowgenius.tech/" />
+    <meta property="og:image" content="https://peeko.flowgenius.tech/assets/peeko-tour-poster.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#f67aa9" />
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="stylesheet" href="assets/site.css" />
+    <script>
+      ;(function () {
+        var t = localStorage.getItem('peeko-theme')
+        if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        document.documentElement.dataset.theme = t
+      })()
+    </script>
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="wrap nav" aria-label="Main">
+        <a class="brand" href="index.html"><img src="assets/logo.svg" alt="" width="34" height="34" />Peeko</a>
+        <div class="nav-links">
+          <a href="index.html#features">Features</a>
+          <a href="index.html#tour">Tour</a>
+          <a href="index.html#pricing">Pricing</a>
+          <a href="index.html#faq">FAQ</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme"></button>
+        <a class="btn btn-primary btn-sm" href="index.html#pricing" data-buy data-soon-label="Notify me"><span data-buy-label>Buy Peeko</span></a>
+        <button class="icon-btn menu-btn" type="button" data-menu aria-label="Menu" aria-expanded="false">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </nav>
+    </header>
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="wrap">
+          <span class="eyebrow"><span class="dot"></span> Screen recorder for Windows</span>
+          <h1>Record beautiful <span class="gradient-text">tutorials</span><br />in minutes, not hours.</h1>
+          <p class="lead">
+            Peeko captures your screen, voice and computer sound in perfect sync, adds your webcam and click
+            highlights, and saves a clean MP4 ready for YouTube, courses and demos.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#pricing" data-buy data-soon-label="Get notified at launch">
+              <span data-buy-label>Buy Peeko for <span data-launch-price>$19</span></span>
+            </a>
+            <a class="btn btn-ghost" href="#tour">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
+              Watch the tour
+            </a>
+          </div>
+          <div class="badges" aria-label="Highlights">
+            <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Windows 10 &amp; 11</span>
+            <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Works fully offline</span>
+            <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>No watermark</span>
+            <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>One-time purchase</span>
+          </div>
+          <div class="window">
+            <img class="theme-img-light" src="assets/screens/record-light.webp" width="1440" height="900" alt="Peeko's Record screen: choose a screen, set audio and output, name the video and start recording" />
+            <img class="theme-img-dark" src="assets/screens/record-dark.webp" width="1440" height="900" alt="Peeko's Record screen in dark mode" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section id="features">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="kicker">Features</span>
+            <h2>Everything a tutorial needs. Nothing it doesn't.</h2>
+            <p>Built for creators, teachers and trainers who want great-looking recordings without learning a studio app.</p>
+          </div>
+          <div class="grid-3">
+            <article class="card feature">
+              <div class="art"><svg xmlns="http://www.w3.org/2000/svg" class="tutorial-illustration" viewBox="0 0 220 140" role="img" aria-label="A monitor showing recording settings"><defs><linearGradient id="cfg-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C8CFF" stop-opacity="0.34"></stop><stop offset="1" stop-color="#7C8CFF" stop-opacity="0.08"></stop></linearGradient></defs><rect width="220" height="140" rx="16" fill="url(#cfg-bg)"></rect><circle cx="26" cy="118" r="30" fill="#7C8CFF" opacity="0.14"></circle><circle cx="200" cy="18" r="22" fill="#7C8CFF" opacity="0.16"></circle><circle cx="190" cy="120" r="6" fill="#7C8CFF" opacity="0.5"></circle><circle cx="30" cy="22" r="4" fill="#7C8CFF" opacity="0.6"></circle><g><path d="M100 98 h20 l4 12 h-28 z" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></path><rect x="84" y="108" width="52" height="7" rx="3.5" fill="#1B1E2B"></rect><rect x="50" y="20" width="120" height="80" rx="9" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></rect><rect x="58" y="28" width="104" height="58" rx="5" fill="#EEF0FA"></rect><rect x="64" y="34" width="40" height="26" rx="4" fill="#7C8CFF" opacity="0.85"></rect><rect x="64" y="34" width="40" height="26" rx="4" fill="none" stroke="#1B1E2B" stroke-width="2"></rect><rect x="69" y="39" width="18" height="3" rx="1.5" fill="#FFFFFF"></rect><rect x="69" y="45" width="28" height="3" rx="1.5" fill="#FFFFFF" opacity="0.7"></rect><rect x="64" y="67" width="26" height="12" rx="6" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="1.5"></rect><rect x="93" y="67" width="26" height="12" rx="6" fill="#7C8CFF" stroke="#1B1E2B" stroke-width="1.5"></rect><rect x="122" y="67" width="26" height="12" rx="6" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="1.5"></rect><line x1="112" y1="40" x2="154" y2="40" stroke="#1B1E2B" stroke-width="2.5" stroke-linecap="round" opacity="0.35"></line><line x1="112" y1="40" x2="140" y2="40" stroke="#7C8CFF" stroke-width="2.5" stroke-linecap="round"></line><circle cx="140" cy="40" r="4.5" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="2"></circle><line x1="112" y1="53" x2="154" y2="53" stroke="#1B1E2B" stroke-width="2.5" stroke-linecap="round" opacity="0.35"></line><line x1="112" y1="53" x2="124" y2="53" stroke="#7C8CFF" stroke-width="2.5" stroke-linecap="round"></line><circle cx="124" cy="53" r="4.5" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="2"></circle></g><g class="ill-spin" style="transform-origin: 170px 98px;"><circle cx="170" cy="98" r="13" fill="none" stroke="#1B1E2B" stroke-width="8" stroke-dasharray="4.6 5.6"></circle><circle cx="170" cy="98" r="11" fill="#7C8CFF" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></circle><circle cx="170" cy="98" r="4" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="2"></circle></g><path d="M32 92 h12 l4 4 h16 a3 3 0 0 1 3 3 v16 a3 3 0 0 1 -3 3 h-32 a3 3 0 0 1 -3 -3 v-20 a3 3 0 0 1 3 -3 z" fill="#FFD43B" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></path></svg></div>
+              <h3>Record anything</h3>
+              <p>A full screen, one monitor, all your monitors at once, or a single app window. Choose 720p, 1080p or 1440p at 24, 30 or 60 fps.</p>
+            </article>
+            <article class="card feature">
+              <div class="art"><svg xmlns="http://www.w3.org/2000/svg" class="tutorial-illustration" viewBox="0 0 220 140" role="img" aria-label="A microphone and speaker with sound waves"><defs><linearGradient id="aud-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3DDC97" stop-opacity="0.34"></stop><stop offset="1" stop-color="#3DDC97" stop-opacity="0.08"></stop></linearGradient></defs><rect width="220" height="140" rx="16" fill="url(#aud-bg)"></rect><circle cx="26" cy="118" r="30" fill="#3DDC97" opacity="0.14"></circle><circle cx="200" cy="18" r="22" fill="#3DDC97" opacity="0.16"></circle><circle cx="190" cy="120" r="6" fill="#3DDC97" opacity="0.5"></circle><circle cx="30" cy="22" r="4" fill="#3DDC97" opacity="0.6"></circle><path d="M33 62 a22 22 0 0 0 44 0" fill="none" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></path><line x1="55" y1="84" x2="55" y2="100" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></line><line x1="42" y1="102" x2="68" y2="102" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></line><rect x="41" y="24" width="28" height="50" rx="14" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></rect><path d="M41 44 h28 M41 52 h28 M41 60 h28" stroke="#1B1E2B" stroke-width="2" opacity="0.35"></path><circle cx="55" cy="34" r="3" fill="#3DDC97"></circle><rect class="ill-wave" x="88" y="59" width="3.4" height="14" rx="1.7" fill="#3DDC97" style="animation-delay: 0s; transform-origin: 90px 66px;"></rect><rect class="ill-wave" x="93" y="53" width="3.4" height="26" rx="1.7" fill="#1B1E2B" style="animation-delay: 0.09s; transform-origin: 95px 66px;"></rect><rect class="ill-wave" x="98" y="46" width="3.4" height="40" rx="1.7" fill="#3DDC97" style="animation-delay: 0.18s; transform-origin: 100px 66px;"></rect><rect class="ill-wave" x="103" y="55" width="3.4" height="22" rx="1.7" fill="#3DDC97" style="animation-delay: 0.27s; transform-origin: 105px 66px;"></rect><rect class="ill-wave" x="108" y="49" width="3.4" height="34" rx="1.7" fill="#1B1E2B" style="animation-delay: 0.36s; transform-origin: 110px 66px;"></rect><rect class="ill-wave" x="113" y="43" width="3.4" height="46" rx="1.7" fill="#3DDC97" style="animation-delay: 0.45s; transform-origin: 115px 66px;"></rect><rect class="ill-wave" x="118" y="52" width="3.4" height="28" rx="1.7" fill="#3DDC97" style="animation-delay: 0.54s; transform-origin: 120px 66px;"></rect><rect class="ill-wave" x="123" y="57" width="3.4" height="18" rx="1.7" fill="#1B1E2B" style="animation-delay: 0.63s; transform-origin: 125px 66px;"></rect><rect class="ill-wave" x="128" y="50" width="3.4" height="32" rx="1.7" fill="#3DDC97" style="animation-delay: 0.72s; transform-origin: 130px 66px;"></rect><rect class="ill-wave" x="133" y="60" width="3.4" height="12" rx="1.7" fill="#3DDC97" style="animation-delay: 0.81s; transform-origin: 135px 66px;"></rect><rect x="148" y="30" width="44" height="76" rx="9" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></rect><circle cx="170" cy="50" r="7" fill="#3DDC97" stroke="#1B1E2B" stroke-width="2.5"></circle><circle cx="170" cy="82" r="15" fill="#3DDC97" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></circle><circle cx="170" cy="82" r="5.5" fill="#1B1E2B"></circle><path d="M198 70 q6 12 0 24 M204 64 q10 18 0 36" fill="none" stroke="#1B1E2B" stroke-width="2.5" stroke-linecap="round" opacity="0.5"></path></svg></div>
+              <h3>Crystal-clear, in-sync audio</h3>
+              <p>Your microphone, your computer's sound, or both, mixed perfectly with the video. Pick your mic, set the volume and watch a live level meter.</p>
+            </article>
+            <article class="card feature">
+              <div class="art"><svg xmlns="http://www.w3.org/2000/svg" class="tutorial-illustration" viewBox="0 0 220 140" role="img" aria-label="A screen with a small round webcam bubble in the corner"><defs><linearGradient id="cam-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF6F91" stop-opacity="0.34"></stop><stop offset="1" stop-color="#FF6F91" stop-opacity="0.08"></stop></linearGradient></defs><rect width="220" height="140" rx="16" fill="url(#cam-bg)"></rect><circle cx="26" cy="118" r="30" fill="#FF6F91" opacity="0.14"></circle><circle cx="200" cy="18" r="22" fill="#FF6F91" opacity="0.16"></circle><circle cx="190" cy="120" r="6" fill="#FF6F91" opacity="0.5"></circle><circle cx="30" cy="22" r="4" fill="#FF6F91" opacity="0.6"></circle><defs><linearGradient id="cam-face" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8A7A"></stop><stop offset="0.55" stop-color="#FF5C8A"></stop><stop offset="1" stop-color="#7C6CFF"></stop></linearGradient></defs><g><path d="M100 98 h20 l4 12 h-28 z" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></path><rect x="84" y="108" width="52" height="7" rx="3.5" fill="#1B1E2B"></rect><rect x="50" y="20" width="120" height="80" rx="9" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></rect><rect x="58" y="28" width="104" height="58" rx="5" fill="#EEF0FA"></rect><rect x="58" y="28" width="104" height="9" rx="4" fill="#1B1E2B" opacity="0.12"></rect><rect x="64" y="44" width="50" height="5" rx="2.5" fill="#1B1E2B" opacity="0.3"></rect><rect x="64" y="54" width="38" height="5" rx="2.5" fill="#1B1E2B" opacity="0.18"></rect><rect x="64" y="64" width="44" height="5" rx="2.5" fill="#1B1E2B" opacity="0.18"></rect><rect x="64" y="74" width="30" height="5" rx="2.5" fill="#1B1E2B" opacity="0.18"></rect><circle cx="142" cy="68" r="17" fill="url(#cam-face)" stroke="#FFFFFF" stroke-width="3.5"></circle><circle cx="142" cy="68" r="19" fill="none" stroke="#1B1E2B" stroke-width="2"></circle><ellipse cx="136.5" cy="66" rx="2.6" ry="3.2" fill="#1B1E2B"></ellipse><ellipse cx="147.5" cy="66" rx="2.6" ry="3.2" fill="#1B1E2B"></ellipse><path d="M138 73 q4 3.5 8 0" fill="none" stroke="#1B1E2B" stroke-width="2" stroke-linecap="round"></path></g><rect x="94" y="8" width="32" height="14" rx="7" fill="#1B1E2B"></rect><circle cx="110" cy="15" r="4" fill="#FF6F91"></circle><circle class="ill-blink" cx="121" cy="15" r="1.8" fill="#3DDC97"></circle></svg></div>
+              <h3>Webcam overlay <span class="tag">Optional</span></h3>
+              <p>Put your face in any corner: circle, rectangle or rounded, three sizes, with a border and background frame. Burned right into the video.</p>
+            </article>
+            <article class="card feature">
+              <div class="art"><svg xmlns="http://www.w3.org/2000/svg" class="tutorial-illustration" viewBox="0 0 220 140" role="img" aria-label="A mouse pointer with colourful rings around a click"><defs><linearGradient id="clk-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD43B" stop-opacity="0.34"></stop><stop offset="1" stop-color="#FFD43B" stop-opacity="0.08"></stop></linearGradient></defs><rect width="220" height="140" rx="16" fill="url(#clk-bg)"></rect><circle cx="26" cy="118" r="30" fill="#FFD43B" opacity="0.14"></circle><circle cx="200" cy="18" r="22" fill="#FFD43B" opacity="0.16"></circle><circle cx="190" cy="120" r="6" fill="#FFD43B" opacity="0.5"></circle><circle cx="30" cy="22" r="4" fill="#FFD43B" opacity="0.6"></circle><circle class="ill-ripple" cx="100" cy="62" r="40" fill="none" stroke="#FFD43B" stroke-width="4" style="transform-origin: 100px 62px;"></circle><circle class="ill-ripple delay" cx="100" cy="62" r="40" fill="none" stroke="#FFD43B" stroke-width="4" style="transform-origin: 100px 62px;"></circle><circle cx="100" cy="62" r="22" fill="#FFD43B" opacity="0.35"></circle><circle cx="100" cy="62" r="7" fill="#FFD43B" stroke="#1B1E2B" stroke-width="2"></circle><path d="M60 30 l6 6 M140 26 l-5 7 M150 88 l-7 -3 M52 84 l7 -3" stroke="#1B1E2B" stroke-width="3" stroke-linecap="round" opacity="0.55"></path><path d="M100 62 L100 112 L111.5 100.5 L120 120 L130.5 115.5 L122 96 L138 96 Z" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></path><circle cx="170" cy="40" r="15" fill="none" stroke="#4DABF7" stroke-width="3.5" stroke-dasharray="6 4"></circle><circle cx="170" cy="40" r="4" fill="#4DABF7"></circle></svg></div>
+              <h3>Click highlights <span class="tag">Optional</span></h3>
+              <p>A colourful ring appears wherever you click, so viewers never lose the cursor. Ripple, pulse or double styles; right clicks show a dashed ring.</p>
+            </article>
+            <article class="card feature">
+              <div class="art"><svg xmlns="http://www.w3.org/2000/svg" class="tutorial-illustration" viewBox="0 0 220 140" role="img" aria-label="Recording controls with pause, play and stop buttons"><defs><linearGradient id="ctl-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFB84D" stop-opacity="0.34"></stop><stop offset="1" stop-color="#FFB84D" stop-opacity="0.08"></stop></linearGradient></defs><rect width="220" height="140" rx="16" fill="url(#ctl-bg)"></rect><circle cx="26" cy="118" r="30" fill="#FFB84D" opacity="0.14"></circle><circle cx="200" cy="18" r="22" fill="#FFB84D" opacity="0.16"></circle><circle cx="190" cy="120" r="6" fill="#FFB84D" opacity="0.5"></circle><circle cx="30" cy="22" r="4" fill="#FFB84D" opacity="0.6"></circle><rect x="84" y="16" width="52" height="20" rx="10" fill="#1B1E2B"></rect><circle class="ill-blink" cx="95" cy="26" r="3.2" fill="#FF4D5E"></circle><text x="102" y="30" font-size="10" font-weight="700" fill="#FFFFFF" font-family="Cascadia Mono, Consolas, monospace">12:48</text><rect x="26" y="50" width="168" height="50" rx="25" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></rect><circle cx="68" cy="75" r="17" fill="#FFB84D" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></circle><rect x="61.5" y="67" width="4.5" height="16" rx="1.5" fill="#1B1E2B"></rect><rect x="70" y="67" width="4.5" height="16" rx="1.5" fill="#1B1E2B"></rect><circle cx="110" cy="75" r="17" fill="#3DDC97" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></circle><path d="M105 66 L119 75 L105 84 Z" fill="#1B1E2B" stroke-linejoin="round" stroke="#1B1E2B" stroke-width="1.5"></path><circle cx="152" cy="75" r="17" fill="#FF4D5E" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></circle><rect x="145" y="68" width="14" height="14" rx="2.5" fill="#FFFFFF"></rect><path d="M58 112 h104" stroke="#1B1E2B" stroke-width="3" stroke-linecap="round" opacity="0.15"></path></svg></div>
+              <h3>Stay in control</h3>
+              <p>Countdown, pause and resume, and hotkeys that work anywhere. A tiny control bar floats on top and never shows up in your video.</p>
+            </article>
+            <article class="card feature">
+              <div class="art"><svg xmlns="http://www.w3.org/2000/svg" class="tutorial-illustration" viewBox="0 0 220 140" role="img" aria-label="A video file with a play button"><defs><linearGradient id="lib-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4DABF7" stop-opacity="0.34"></stop><stop offset="1" stop-color="#4DABF7" stop-opacity="0.08"></stop></linearGradient></defs><rect width="220" height="140" rx="16" fill="url(#lib-bg)"></rect><circle cx="26" cy="118" r="30" fill="#4DABF7" opacity="0.14"></circle><circle cx="200" cy="18" r="22" fill="#4DABF7" opacity="0.16"></circle><circle cx="190" cy="120" r="6" fill="#4DABF7" opacity="0.5"></circle><circle cx="30" cy="22" r="4" fill="#4DABF7" opacity="0.6"></circle><g transform="rotate(12 168 74)"><rect x="146" y="40" width="44" height="66" rx="6" fill="#4DABF7" opacity="0.55" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></rect><g><rect x="150" y="46" width="5" height="6" rx="1" fill="#FFFFFF"></rect><rect x="181" y="46" width="5" height="6" rx="1" fill="#FFFFFF"></rect></g><g><rect x="150" y="58" width="5" height="6" rx="1" fill="#FFFFFF"></rect><rect x="181" y="58" width="5" height="6" rx="1" fill="#FFFFFF"></rect></g><g><rect x="150" y="70" width="5" height="6" rx="1" fill="#FFFFFF"></rect><rect x="181" y="70" width="5" height="6" rx="1" fill="#FFFFFF"></rect></g><g><rect x="150" y="82" width="5" height="6" rx="1" fill="#FFFFFF"></rect><rect x="181" y="82" width="5" height="6" rx="1" fill="#FFFFFF"></rect></g><g><rect x="150" y="94" width="5" height="6" rx="1" fill="#FFFFFF"></rect><rect x="181" y="94" width="5" height="6" rx="1" fill="#FFFFFF"></rect></g></g><path d="M66 16 h50 l24 24 v80 a6 6 0 0 1 -6 6 h-68 a6 6 0 0 1 -6 -6 v-98 a6 6 0 0 1 6 -6 z" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></path><path d="M116 16 v18 a6 6 0 0 0 6 6 h18" fill="#EEF0FA" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></path><circle class="ill-pulse soft" cx="100" cy="74" r="20" fill="#4DABF7" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" style="transform-origin: 100px 74px;"></circle><path d="M94 64 L110 74 L94 84 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"></path><rect x="74" y="104" width="32" height="13" rx="4" fill="#1B1E2B"></rect><text x="78.5" y="113.8" font-size="8.5" font-weight="800" fill="#FFFFFF" font-family="Segoe UI, sans-serif">MP4</text><g transform="rotate(-35 40 100)"><rect x="22" y="94" width="34" height="11" rx="2" fill="#FFD43B" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></rect><path d="M56 94 l10 5.5 l-10 5.5 z" fill="#FFFFFF" stroke="#1B1E2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></path></g></svg></div>
+              <h3>Your library, sorted</h3>
+              <p>Every recording in one place with thumbnails. Preview, rename, delete or open your MP4 in a click, ready to upload anywhere.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tour -->
+      <section id="tour">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="kicker">Product tour</span>
+            <h2>See Peeko in 30 seconds</h2>
+          </div>
+          <div class="card video-frame">
+            <video controls preload="none" playsinline poster="assets/peeko-tour-poster.jpg" width="1920" height="1080">
+              <source src="assets/peeko-tour.mp4" type="video/mp4" />
+              Your browser can't play this video. <a href="assets/peeko-tour.mp4">Download the tour (MP4)</a>.
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <!-- Screenshots -->
+      <section id="screenshots">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="kicker">A closer look</span>
+            <h2>Beautiful in light and dark</h2>
+            <p>Peeko follows your Windows theme, or switch with one click.</p>
+          </div>
+          <div class="gallery">
+            <figure class="card shot">
+              <img loading="lazy" src="assets/screens/library-light.webp" width="1440" height="900" alt="The Recordings page with three video thumbnails" />
+              <figcaption>Recordings library<span>Thumbnails, duration and size for every video.</span></figcaption>
+            </figure>
+            <figure class="card shot">
+              <img loading="lazy" src="assets/screens/player-light.webp" width="1440" height="900" alt="The built-in player previewing a recording" />
+              <figcaption>Built-in player<span>Preview, rename, show in folder or open in your player.</span></figcaption>
+            </figure>
+            <figure class="card shot">
+              <img loading="lazy" src="assets/screens/howto-dark.webp" width="1440" height="900" alt="The illustrated How to Use guide in dark mode" />
+              <figcaption>How to Use guide<span>Seven illustrated steps, right inside the app.</span></figcaption>
+            </figure>
+            <figure class="card shot">
+              <img loading="lazy" src="assets/screens/settings-dark.webp" width="1440" height="900" alt="Settings with theme, save location and recording options in dark mode" />
+              <figcaption>Simple settings<span>Theme, save location, shortcuts and more.</span></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it works -->
+      <section id="how">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="kicker">How it works</span>
+            <h2>Three steps to your first video</h2>
+          </div>
+          <div class="steps">
+            <div class="card step">
+              <h3>Choose what to record</h3>
+              <p>Pick a screen or window, check your microphone level, and turn on the webcam or click highlights if you like.</p>
+            </div>
+            <div class="card step">
+              <h3>Name it and press record</h3>
+              <p>Give your video a name, press <strong>Start recording</strong> (or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>), and demonstrate.</p>
+            </div>
+            <div class="card step">
+              <h3>Share your MP4</h3>
+              <p>Stop when you're done. Peeko saves an MP4 (H.264 + AAC) that plays everywhere and uploads anywhere.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Requirements -->
+      <section id="requirements">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="kicker">System requirements</span>
+            <h2>Runs on almost any Windows PC</h2>
+          </div>
+          <div class="card table-card">
+            <table>
+              <tbody>
+                <tr><th scope="row">Operating system</th><td>Windows 10 (version 2004 or later) or Windows 11, 64-bit</td></tr>
+                <tr><th scope="row">Processor</th><td>64-bit dual-core; a graphics chip with H.264 encoding (most from 2015 onwards) makes saving faster</td></tr>
+                <tr><th scope="row">Memory</th><td>4 GB RAM (8 GB recommended)</td></tr>
+                <tr><th scope="row">Disk space</th><td>500 MB for Peeko, plus your recordings (about 40–65 MB per minute at 1080p)</td></tr>
+                <tr><th scope="row">Optional</th><td>Any microphone and webcam that Windows recognises</td></tr>
+                <tr><th scope="row">Not supported</th><td>Windows "N" editions without Microsoft's free Media Feature Pack; Windows on ARM; macOS and Linux</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing -->
+      <section id="pricing">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="kicker">Pricing</span>
+            <h2>One price. Yours to keep.</h2>
+            <p>No subscription. Pay once, record forever.</p>
+          </div>
+          <div class="card pricing">
+            <span class="launch">Launch offer</span>
+            <div class="price"><s data-regular-price>$24</s><span data-launch-price>$19</span> <small>USD</small></div>
+            <p class="muted">One-time purchase · personal &amp; commercial use</p>
+            <ul class="includes">
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Every feature: screen, audio, webcam overlay, click highlights, library</span></li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Install on up to <strong>3 PCs</strong> you use</span></li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Free updates</strong> for all 1.x versions</span></li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>No watermark, no time limits, works offline</span></li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span><strong>30-day money-back guarantee</strong>, no questions asked</span></li>
+            </ul>
+            <a class="btn btn-primary" href="contact.html?notify=1" data-buy data-soon-label="Get notified at launch">
+              <span data-buy-label>Buy Peeko now</span>
+            </a>
+            <p class="fine">
+              Prices in USD. Sales tax/VAT is calculated at checkout by Paddle, our merchant of record.
+              See <a href="terms.html">Terms of Sale &amp; Refunds</a> and the <a href="eula.html">licence agreement</a>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="kicker">FAQ</span>
+            <h2>Questions, answered</h2>
+          </div>
+          <div class="faq">
+            <details class="card"><summary>Does Peeko upload my recordings anywhere?</summary><p>No. Peeko works entirely on your computer. Recordings, settings and thumbnails never leave your PC. See our <a href="privacy.html">Privacy Policy</a>.</p></details>
+            <details class="card"><summary>What format are recordings saved in?</summary><p>MP4 with H.264 video and AAC audio, ready for YouTube, Vimeo, social media, course platforms and every video editor.</p></details>
+            <details class="card"><summary>Is there a watermark or time limit?</summary><p>No watermark, and no time limit. Recordings can be as long as your free disk space allows.</p></details>
+            <details class="card"><summary>Can I record just one app window?</summary><p>Yes. Choose a full screen, one monitor, all monitors together, or any open app window.</p></details>
+            <details class="card"><summary>Will the Peeko window show up in my video?</summary><p>No. Peeko can minimise itself while recording, and its small control bar is always hidden from the recording.</p></details>
+            <details class="card"><summary>Do I need a webcam or microphone?</summary><p>No, both are optional. Peeko records your screen on its own, and can add your mic, computer sound and webcam when you want them.</p></details>
+            <details class="card"><summary>How many computers can I use it on?</summary><p>One licence covers one person on up to 3 PCs they own or use.</p></details>
+            <details class="card"><summary>What if Peeko doesn't work for me?</summary><p>Ask for a refund within 30 days of purchase. No questions asked. See <a href="terms.html">Terms of Sale &amp; Refunds</a>.</p></details>
+            <details class="card"><summary>Does it work on Mac or Linux?</summary><p>Not yet. Peeko is made for Windows 10 and 11 (64-bit).</p></details>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section>
+        <div class="wrap">
+          <div class="card cta-band">
+            <h2>Ready to record your first tutorial?</h2>
+            <p>Join creators making clear, professional videos with Peeko. Launch price <span data-launch-price>$19</span> for a limited time.</p>
+            <a class="btn btn-primary" href="contact.html?notify=1" data-buy data-soon-label="Get notified at launch">
+              <span data-buy-label>Get Peeko</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-row">
+        <div>© <span data-year>2026</span> Jahidul Islam · Peeko v1.0.0</div>
+        <nav class="footer-links" aria-label="Legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Sale &amp; Refunds</a>
+          <a href="eula.html">Licence Agreement</a>
+          <a href="licenses.html">Open-source licences</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

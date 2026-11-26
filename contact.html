@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact and support: Peeko</title>
+    <meta name="description" content="Get help with Peeko, ask about your order, or get notified when Peeko launches." />
+    <link rel="canonical" href="https://peeko.flowgenius.tech/contact.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact and support: Peeko" />
+    <meta property="og:description" content="Get help with Peeko, ask about your order, or get notified when Peeko launches." />
+    <meta property="og:url" content="https://peeko.flowgenius.tech/contact.html" />
+    <meta property="og:image" content="https://peeko.flowgenius.tech/assets/peeko-tour-poster.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#f67aa9" />
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="stylesheet" href="assets/site.css" />
+    <script>
+      ;(function () {
+        var t = localStorage.getItem('peeko-theme')
+        if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        document.documentElement.dataset.theme = t
+      })()
+    </script>
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="wrap nav" aria-label="Main">
+        <a class="brand" href="index.html"><img src="assets/logo.svg" alt="" width="34" height="34" />Peeko</a>
+        <div class="nav-links">
+          <a href="index.html#features">Features</a>
+          <a href="index.html#tour">Tour</a>
+          <a href="index.html#pricing">Pricing</a>
+          <a href="index.html#faq">FAQ</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme"></button>
+        <a class="btn btn-primary btn-sm" href="index.html#pricing" data-buy data-soon-label="Notify me"><span data-buy-label>Buy Peeko</span></a>
+        <button class="icon-btn menu-btn" type="button" data-menu aria-label="Menu" aria-expanded="false">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </nav>
+    </header>
+    <main id="main" class="wrap">
+      <article class="card doc">
+        <h1>Contact &amp; support</h1>
+        <p class="muted">We're a small, independent team and we read every message.</p>
+
+        <div class="notify" data-notify hidden>
+          <strong>Peeko is launching soon.</strong> Email us with the subject <em>"Notify me"</em> and we'll let
+          you know the moment it's available, at the launch price.
+        </div>
+
+        <div class="contact-grid">
+          <div class="card">
+            <h3>Email support</h3>
+            <p><a href="mailto:jahidul.islam.macomb@gmail.com?subject=Peeko%20support">jahidul.islam.macomb@gmail.com</a></p>
+            <p class="muted">We reply within 2 business days.</p>
+          </div>
+          <div class="card">
+            <h3>Orders &amp; refunds</h3>
+            <p>Reply to your receipt email, or look up your order at <a href="https://paddle.net" rel="noopener">paddle.net</a>.</p>
+            <p class="muted">30-day money-back guarantee.</p>
+          </div>
+          <div class="card">
+            <h3>Launch updates</h3>
+            <p><a href="mailto:jahidul.islam.macomb@gmail.com?subject=Notify%20me%20when%20Peeko%20launches">Email "Notify me"</a></p>
+            <p class="muted">One email at launch. No spam.</p>
+          </div>
+        </div>
+
+        <h2>Getting help faster</h2>
+        <p>When you write about a problem, please include:</p>
+        <ol>
+          <li>Your Peeko version (bottom of the sidebar, or Settings → About).</li>
+          <li>Your Windows version (press <code>Win + R</code>, type <code>winver</code>, press Enter).</li>
+          <li>What you did, what you expected, and what happened instead.</li>
+          <li>Your recording settings and a screenshot of any error message.</li>
+        </ol>
+        <p>Many common questions are answered in the <a href="index.html#faq">FAQ</a>.</p>
+
+        <h2>Who we are</h2>
+        <p>Peeko is made by Jahidul Islam in Macomb, Michigan, USA. Orders are processed by Paddle.com, our merchant of record.</p>
+      </article>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-row">
+        <div>© <span data-year>2026</span> Jahidul Islam · Peeko v1.0.0</div>
+        <nav class="footer-links" aria-label="Legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Sale &amp; Refunds</a>
+          <a href="eula.html">Licence Agreement</a>
+          <a href="licenses.html">Open-source licences</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

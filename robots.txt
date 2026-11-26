@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://peeko.flowgenius.tech/sitemap.xml

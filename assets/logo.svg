@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Peeko: a little blob peeking up at your screen, wearing a REC light. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF8A7A"/>
+      <stop offset="0.55" stop-color="#FF5C8A"/>
+      <stop offset="1" stop-color="#7C6CFF"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#ECEBFF"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="0.3" cy="0.2" r="0.8">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="tile">
+      <rect x="16" y="16" width="480" height="480" rx="116"/>
+    </clipPath>
+  </defs>
+
+  <rect x="16" y="16" width="480" height="480" rx="116" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="116" fill="url(#shine)"/>
+
+  <g clip-path="url(#tile)">
+    <!-- body peeking up from the bottom edge -->
+    <path d="M100 520 V318 C100 214 170 150 256 150 C342 150 412 214 412 318 V520 Z" fill="url(#body)"/>
+    <!-- eyes -->
+    <ellipse cx="204" cy="300" rx="31" ry="39" fill="#1B1E2B"/>
+    <ellipse cx="308" cy="300" rx="31" ry="39" fill="#1B1E2B"/>
+    <circle cx="215" cy="284" r="11" fill="#FFFFFF"/>
+    <circle cx="319" cy="284" r="11" fill="#FFFFFF"/>
+    <circle cx="196" cy="316" r="5" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="300" cy="316" r="5" fill="#FFFFFF" opacity="0.8"/>
+    <!-- cheeks -->
+    <ellipse cx="160" cy="356" rx="25" ry="15" fill="#FF8FA8" opacity="0.75"/>
+    <ellipse cx="352" cy="356" rx="25" ry="15" fill="#FF8FA8" opacity="0.75"/>
+    <!-- smile -->
+    <path d="M238 354 Q256 372 274 354" fill="none" stroke="#1B1E2B" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <!-- REC light -->
+  <circle cx="372" cy="160" r="44" fill="#FF3D55" stroke="#FFFFFF" stroke-width="15"/>
+  <circle cx="358" cy="146" r="10" fill="#FFFFFF" opacity="0.55"/>
+</svg>
